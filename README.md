@@ -9,3 +9,7 @@ if you want icons remember to install nerdfont and check reqs from lazyvim
 
 nvim picks it up from:  
 ~/.config/nvim
+
+### documentation
+
+https://www.youtube.com/watch?v=N93cTbtLCIM
