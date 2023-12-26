@@ -13,3 +13,6 @@ nvim picks it up from:
 ### documentation
 
 https://www.youtube.com/watch?v=N93cTbtLCIM
+
+edgy ui docs  
+https://github.com/folke/edgy.nvim?tab=readme-ov-file#%EF%B8%8F-keymaps-for-edgebar-windows
