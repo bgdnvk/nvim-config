@@ -12,7 +12,8 @@ require("lazy").setup({
     { "folke/lazy.nvim", version = false },
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import any extras modules here
-    { import = "lazyvim.plugins.extras.linting.eslint" },
+    -- eslint seems to have some issues with The keyword 'import' is reserved
+    --{ import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
     { import = "lazyvim.plugins.extras.lsp.none-ls" },
     --
