@@ -12,7 +12,16 @@ nvim picks it up from:
 
 ### documentation
 
-https://www.youtube.com/watch?v=N93cTbtLCIM
+<https://www.youtube.com/watch?v=N93cTbtLCIM>
 
 edgy ui docs  
-https://github.com/folke/edgy.nvim?tab=readme-ov-file#%EF%B8%8F-keymaps-for-edgebar-windows
+<https://github.com/folke/edgy.nvim?tab=readme-ov-file#%EF%B8%8F-keymaps-for-edgebar-windows>
+
+### ubuntu setup
+
+just do :checkhealth until everything is green  
+install build-essentials (gcc)  
+i xclip  
+nvn, node, ts, npm, python3, lua, luarocks  
+get cargo, easier to install treesitter  
+get nerdfont
