@@ -12,8 +12,6 @@ return {
       timeout = 30000, -- timeout in milliseconds
       temperature = 0, -- adjust if needed
       max_tokens = 4096,
-      -- Optionally, add proxy settings if you use an API-compatible proxy:
-      -- proxy = "http://your-proxy:port",
     },
   },
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
