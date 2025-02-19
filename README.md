@@ -25,3 +25,20 @@ i xclip
 nvn, node, ts, npm, python3, lua, luarocks  
 get cargo, easier to install treesitter  
 get nerdfont
+
+## avante model
+
+change the model in plugins/avante.lua
+
+```lua
+  opts = {
+    -- add any opts here
+    provider = "openai",
+    openai = {
+      endpoint = "https://api.openai.com/v1", -- default endpoint
+      model = "gpt-4o", -- your desired model (or use gpt-4o, etc.)
+      timeout = 30000, -- timeout in milliseconds
+      temperature = 0, -- adjust if needed
+      max_tokens = 4096,
+    },
+```
