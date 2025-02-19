@@ -16,6 +16,12 @@ return {
       },
       hijack_netrw_behavior = "open_current", -- Open Neo-tree in the current window
       use_libuv_file_watcher = true, -- Use libuv for better performance
+      filtered_items = {
+        visible = true, -- Ensure that hidden files can be visible
+        hide_dotfiles = true, -- Hide all dotfiles by default
+        never_show = {}, -- Allow .github to be visible
+        always_show = { ".github" }, -- Ensure .github is always shown
+      },
     },
     default_component_configs = {
       icon = {
