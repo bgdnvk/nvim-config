@@ -1,5 +1,6 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
+require("config.python")
 
 -- Setup language servers.
 -- local lspconfig = require("lspconfig")
