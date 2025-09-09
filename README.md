@@ -2,8 +2,6 @@
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
-<<<<<<< HEAD
-=======
 
 ## init
 
@@ -44,4 +42,3 @@ change the model in plugins/avante.lua
       max_tokens = 4096,
     },
 ```
->>>>>>> origin/master

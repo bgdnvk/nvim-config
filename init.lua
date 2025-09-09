@@ -1,8 +1,6 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-<<<<<<< HEAD
 require("config.python")
-=======
 
 -- Setup language servers.
 -- local lspconfig = require("lspconfig")
@@ -14,4 +12,3 @@ require("config.python")
 --     ["rust-analyzer"] = {},
 --   },
 -- })
->>>>>>> origin/master
